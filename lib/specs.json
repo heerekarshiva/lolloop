@@ -1,0 +1,639 @@
+[
+{
+"slug": "whack-a-mole",
+"name": "Whack-a-Mole",
+"mech": "target",
+"theme": "funny",
+"cat": "funny",
+"e": "🐹",
+"d": "Bop the moles. Spare the bombs.",
+"p": {
+"e": "🐹",
+"bad": "💣"
+}
+},
+{
+"slug": "bubble-pop",
+"name": "Bubble Pop",
+"mech": "target",
+"theme": "puzzle",
+"cat": "quick",
+"e": "🫧",
+"d": "Pop every bubble before it floats away.",
+"p": {
+"e": "🫧",
+"life": 1300
+}
+},
+{
+"slug": "balloon-blast",
+"name": "Balloon Blast",
+"mech": "target",
+"theme": "arcade",
+"cat": "quick",
+"e": "🎈",
+"d": "Pop balloons, avoid the cactus.",
+"p": {
+"e": "🎈",
+"bad": "🌵"
+}
+},
+{
+"slug": "ghost-buster",
+"name": "Ghost Buster",
+"mech": "target",
+"theme": "adventure",
+"cat": "quick",
+"e": "👻",
+"d": "Zap ghosts, spare the angels.",
+"p": {
+"e": "👻",
+"bad": "👼",
+"rate": 550
+}
+},
+{
+"slug": "pizza-tap",
+"name": "Pizza Panic",
+"mech": "target",
+"theme": "funny",
+"cat": "funny",
+"e": "🍕",
+"d": "Grab pizza. Chilies burn.",
+"p": {
+"e": "🍕",
+"bad": "🌶️"
+}
+},
+{
+"slug": "firefly-catch",
+"name": "Firefly Catch",
+"mech": "target",
+"theme": "adventure",
+"cat": "quick",
+"e": "✨",
+"d": "Catch fireflies, dodge the bats.",
+"p": {
+"e": "✨",
+"bad": "🦇",
+"life": 1200
+}
+},
+{
+"slug": "alien-zap",
+"name": "Alien Zap",
+"mech": "target",
+"theme": "arcade",
+"cat": "quick",
+"e": "👾",
+"d": "Zap aliens, protect astronauts.",
+"p": {
+"e": "👾",
+"bad": "🧑‍🚀",
+"rate": 500,
+"life": 800
+}
+},
+{
+"slug": "candy-rush",
+"name": "Candy Rush",
+"mech": "target",
+"theme": "funny",
+"cat": "funny",
+"e": "🍬",
+"d": "Grab sweets. Bugs bite.",
+"p": {
+"e": "🍬",
+"bad": "🪲"
+}
+},
+{
+"slug": "star-sniper",
+"name": "Star Sniper",
+"mech": "target",
+"theme": "arcade",
+"cat": "quick",
+"e": "⭐",
+"d": "Snag stars, avoid comets.",
+"p": {
+"e": "⭐",
+"bad": "☄️",
+"life": 900
+}
+},
+{
+"slug": "coin-grab",
+"name": "Coin Grab",
+"mech": "target",
+"theme": "arcade",
+"cat": "quick",
+"e": "🪙",
+"d": "Grab coins fast. Bombs cost you.",
+"p": {
+"e": "🪙",
+"bad": "💣",
+"rate": 480,
+"life": 750
+}
+},
+{
+"slug": "save-your-sandwich",
+"name": "Save Your Sandwich",
+"mech": "fall",
+"theme": "funny",
+"cat": "funny",
+"e": "🥪",
+"d": "Dodge the falling rocks. Protect lunch.",
+"p": {
+"e": "🥪",
+"o": "🪨"
+}
+},
+{
+"slug": "meteor-dodge",
+"name": "Meteor Dodge",
+"mech": "fall",
+"theme": "adventure",
+"cat": "quick",
+"e": "🚀",
+"d": "Dodge meteors, collect stars.",
+"p": {
+"e": "🚀",
+"o": "☄️",
+"g": "⭐"
+}
+},
+{
+"slug": "lava-hop",
+"name": "Lava Hop",
+"mech": "fall",
+"theme": "adventure",
+"cat": "quick",
+"e": "🧗",
+"d": "Dodge lava bombs on the mountain.",
+"p": {
+"e": "🧗",
+"o": "🌋"
+}
+},
+{
+"slug": "rain-run",
+"name": "Rain Run",
+"mech": "fall",
+"theme": "funny",
+"cat": "quick",
+"e": "☂️",
+"d": "Stay dry, catch coins.",
+"p": {
+"e": "☂️",
+"o": "🌧️",
+"g": "🪙"
+}
+},
+{
+"slug": "traffic-weave",
+"name": "Traffic Weave",
+"mech": "fall",
+"theme": "racing",
+"cat": "quick",
+"e": "🏎️",
+"d": "Weave through roadworks, grab fuel.",
+"p": {
+"e": "🏎️",
+"o": "🚧",
+"g": "⛽"
+}
+},
+{
+"slug": "fruit-catcher",
+"name": "Fruit Catcher",
+"mech": "fall",
+"theme": "arcade",
+"cat": "quick",
+"e": "🧺",
+"d": "Catch apples, dodge bombs.",
+"p": {
+"e": "🧺",
+"o": "💣",
+"g": "🍎"
+}
+},
+{
+"slug": "cookie-catcher",
+"name": "Cookie Catcher",
+"mech": "fall",
+"theme": "funny",
+"cat": "funny",
+"e": "🍪",
+"d": "Catch cookies. Chilies are a trap.",
+"p": {
+"e": "🧺",
+"o": "🌶️",
+"g": "🍪"
+}
+},
+{
+"slug": "treasure-fall",
+"name": "Treasure Sail",
+"mech": "fall",
+"theme": "adventure",
+"cat": "quick",
+"e": "⛵",
+"d": "Sail for gems, dodge sharks.",
+"p": {
+"e": "⛵",
+"o": "🦈",
+"g": "💎"
+}
+},
+{
+"slug": "snowball-saver",
+"name": "Snowball Saver",
+"mech": "fall",
+"theme": "adventure",
+"cat": "quick",
+"e": "🧤",
+"d": "Catch snow, dodge fireballs.",
+"p": {
+"e": "🧤",
+"o": "🔥",
+"g": "❄️"
+}
+},
+{
+"slug": "animal-memory",
+"name": "Animal Memory",
+"mech": "memory",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "🐶",
+"d": "Match the animal pairs.",
+"p": {
+"s": [
+"🐶",
+"🐱",
+"🦊",
+"🐼",
+"🐸",
+"🦁",
+"🐵",
+"🐙"
+]
+}
+},
+{
+"slug": "food-memory",
+"name": "Food Memory",
+"mech": "memory",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "🍔",
+"d": "Match the snacks.",
+"p": {
+"s": [
+"🍔",
+"🍟",
+"🌮",
+"🍣",
+"🍦",
+"🍩",
+"🥑",
+"🍇"
+]
+}
+},
+{
+"slug": "space-memory",
+"name": "Space Memory",
+"mech": "memory",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "🪐",
+"d": "Match the cosmos.",
+"p": {
+"s": [
+"🪐",
+"🌙",
+"☄️",
+"🚀",
+"👽",
+"🛰️",
+"🌟",
+"🌍"
+]
+}
+},
+{
+"slug": "sport-memory",
+"name": "Sport Memory",
+"mech": "memory",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "⚽",
+"d": "Match the sports gear.",
+"p": {
+"s": [
+"⚽",
+"🏀",
+"🏈",
+"🎾",
+"🏐",
+"🏓",
+"🥊",
+"🏹"
+]
+}
+},
+{
+"slug": "monster-memory",
+"name": "Monster Memory",
+"mech": "memory",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "👹",
+"d": "Match the monsters.",
+"p": {
+"s": [
+"👹",
+"👺",
+"🤖",
+"👻",
+"💀",
+"🧟",
+"🧛",
+"🦖"
+]
+}
+},
+{
+"slug": "color-echo",
+"name": "Color Echo",
+"mech": "simon",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "🟨",
+"d": "Repeat the color pattern.",
+"p": {
+"s": [
+"🟥",
+"🟩",
+"🟦",
+"🟨"
+]
+}
+},
+{
+"slug": "animal-echo",
+"name": "Animal Echo",
+"mech": "simon",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "🐥",
+"d": "Repeat the animal pattern.",
+"p": {
+"s": [
+"🐶",
+"🐱",
+"🐸",
+"🐥"
+]
+}
+},
+{
+"slug": "music-echo",
+"name": "Music Echo",
+"mech": "simon",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "🎸",
+"d": "Repeat the instrument pattern.",
+"p": {
+"s": [
+"🥁",
+"🎸",
+"🎹",
+"🎺"
+]
+}
+},
+{
+"slug": "weather-echo",
+"name": "Weather Echo",
+"mech": "simon",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "⛈️",
+"d": "Repeat the weather pattern.",
+"p": {
+"s": [
+"☀️",
+"🌧️",
+"⛈️",
+"❄️"
+]
+}
+},
+{
+"slug": "add-attack",
+"name": "Add Attack",
+"mech": "math",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "➕",
+"d": "Sums at speed. 30 seconds.",
+"p": {
+"op": "+",
+"max": 12
+}
+},
+{
+"slug": "times-table",
+"name": "Times Table Rush",
+"mech": "math",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "✖️",
+"d": "Multiplication sprint.",
+"p": {
+"op": "×",
+"max": 9
+}
+},
+{
+"slug": "minus-mania",
+"name": "Minus Mania",
+"mech": "math",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "➖",
+"d": "Subtract before time runs out.",
+"p": {
+"op": "−",
+"max": 40
+}
+},
+{
+"slug": "mega-math",
+"name": "Mega Math",
+"mech": "math",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "🧮",
+"d": "Big multiplication. Brave only.",
+"p": {
+"op": "×",
+"max": 15
+}
+},
+{
+"slug": "odd-emoji",
+"name": "Odd Emoji",
+"mech": "odd",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "🙃",
+"d": "Find the upside-down face.",
+"p": {
+"a": "🙂",
+"b": "🙃"
+}
+},
+{
+"slug": "spot-the-cat",
+"name": "Spot the Cat",
+"mech": "odd",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "🐈",
+"d": "Find the one that is a cat.",
+"p": {
+"a": "🐱",
+"b": "🐈"
+}
+},
+{
+"slug": "find-the-moon",
+"name": "Find the Moon",
+"mech": "odd",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "🌝",
+"d": "Find the moon with a face.",
+"p": {
+"a": "🌕",
+"b": "🌝"
+}
+},
+{
+"slug": "clover-hunt",
+"name": "Clover Hunt",
+"mech": "odd",
+"theme": "puzzle",
+"cat": "puzzle",
+"e": "🍀",
+"d": "Find the four-leaf clover.",
+"p": {
+"a": "☘️",
+"b": "🍀"
+}
+},
+{
+"slug": "perfect-landing",
+"name": "Perfect Landing",
+"mech": "timing",
+"theme": "racing",
+"cat": "quick",
+"e": "🛬",
+"d": "Land it in the zone.",
+"p": {
+"e": "🛬"
+}
+},
+{
+"slug": "penalty-kick",
+"name": "Penalty Kick",
+"mech": "timing",
+"theme": "arcade",
+"cat": "quick",
+"e": "⚽",
+"d": "Time your kick. Top corner.",
+"p": {
+"e": "⚽"
+}
+},
+{
+"slug": "archery-pro",
+"name": "Archery Pro",
+"mech": "timing",
+"theme": "adventure",
+"cat": "quick",
+"e": "🏹",
+"d": "Hit the bullseye.",
+"p": {
+"e": "🏹"
+}
+},
+{
+"slug": "stack-tower",
+"name": "Stack Tower",
+"mech": "timing",
+"theme": "arcade",
+"cat": "quick",
+"e": "🧱",
+"d": "Drop each brick dead center.",
+"p": {
+"e": "🧱"
+}
+},
+{
+"slug": "basket-shot",
+"name": "Basket Shot",
+"mech": "timing",
+"theme": "arcade",
+"cat": "quick",
+"e": "🏀",
+"d": "Release at the perfect moment.",
+"p": {
+"e": "🏀"
+}
+},
+{
+"slug": "desert-runner",
+"name": "Desert Runner",
+"mech": "runner",
+"theme": "adventure",
+"cat": "quick",
+"e": "🦖",
+"d": "Jump the cacti. Tap to leap.",
+"p": {
+"e": "🦖",
+"o": "🌵"
+}
+},
+{
+"slug": "ninja-sprint",
+"name": "Ninja Sprint",
+"mech": "runner",
+"theme": "adventure",
+"cat": "quick",
+"e": "🥷",
+"d": "Sprint over rocks.",
+"p": {
+"e": "🥷",
+"o": "🪨"
+}
+},
+{
+"slug": "skate-rush",
+"name": "Skate Rush",
+"mech": "runner",
+"theme": "racing",
+"cat": "quick",
+"e": "🛹",
+"d": "Hop the road cones.",
+"p": {
+"e": "🛹",
+"o": "🚧"
+}
+}
+]
