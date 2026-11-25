@@ -7,6 +7,7 @@ import { addScore, best, readScores, writeScores } from '@/lib/guest';
 import { fmt, type GameInfo } from '@/lib/games';
 import { configured, createClient } from '@/lib/supabase/client';
 import GameRunner3D from '@/components/GameRunner3D';
+import GameShell from '@/components/game/GameShell';
 
 export default function SoloGame({
   game,
@@ -40,7 +41,7 @@ export default function SoloGame({
     setSaved('saving');
     if (!configured) return setSaved('error');
     const { data } = await createClient().auth.getUser();
-    if (!data.user) return setSaved('login'); // guest scores stay on device and sync after login
+    if (!data.user) return setSaved('login');
     const list = readScores().filter((x) => !x.synced);
     const r = await fetch('/api/scores', {
       method: 'POST',
@@ -141,15 +142,22 @@ export default function SoloGame({
     );
   }
 
-  // Active game or Ready stage handled by GameRunner3D
+  // Wrap GameRunner3D inside GameShell for fullscreen prompt, countdown, HUD, pause
   return (
     <div className="w-full">
-      <GameRunner3D
+      <GameShell
         key={run}
-        game={game}
-        onDone={finish}
-        autoStart={stage === 'playing'}
-      />
+        gameName={game.name}
+        onComplete={finish}
+      >
+        <GameRunner3D
+          key={run}
+          game={game}
+          onDone={finish}
+          autoStart={stage === 'playing'}
+        />
+      </GameShell>
     </div>
   );
 }
+
