@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import * as THREE from 'three';
+=======
+>>>>>>> 7bbe9ab8feb132bff3cfe73156cae60d1dae324b
 import type { WebGLRenderer } from 'three';
 
 export type QualityLevel = 'low' | 'medium' | 'high';
@@ -107,10 +110,15 @@ export function createQualityManager(): QualityManager {
           lastTs = ts;
           count++;
 
+<<<<<<< HEAD
           // Render a minimal scene just to measure GPU timing
           const _tmpScene = new THREE.Scene();
           const _tmpCam = new THREE.PerspectiveCamera();
           renderer.render(_tmpScene, _tmpCam);
+=======
+          // Render a simple pass
+          renderer.render(renderer.getRenderTarget()?.texture ? new (renderer as unknown as { scene: never }).scene : new (require('three').Scene)(), new (require('three').PerspectiveCamera)());
+>>>>>>> 7bbe9ab8feb132bff3cfe73156cae60d1dae324b
 
           if (count < FRAMES) {
             requestAnimationFrame(frame);

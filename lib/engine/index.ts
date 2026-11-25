@@ -9,5 +9,8 @@ export * from './fullscreen';
 export * from './scene';
 export * from './rng';
 export * from './fsm';
+<<<<<<< HEAD
 export * from './anti-cheat';
 
+=======
+>>>>>>> 7bbe9ab8feb132bff3cfe73156cae60d1dae324b
