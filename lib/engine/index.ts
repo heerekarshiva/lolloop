@@ -9,3 +9,5 @@ export * from './fullscreen';
 export * from './scene';
 export * from './rng';
 export * from './fsm';
+export * from './anti-cheat';
+
